@@ -366,6 +366,8 @@ object DruidBeams extends Logging
       .tlsTrustStoreAlgorithm(config.propertiesBasedConfig.tlsTrustStoreAlgorithm)
       .tlsTrustStoreType(config.propertiesBasedConfig.tlsTrustStoreType)
       .tlsTrustStorePassword(config.propertiesBasedConfig.tlsTrustStorePassword)
+      .tlsTrustStorePath(config.propertiesBasedConfig.tlsTrustStorePath)
+
   }
 
   /**
